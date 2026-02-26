@@ -1,4 +1,4 @@
-# 🏦 End-to-End Credit Risk Prediction System
+# End-to-End Credit Risk Prediction System
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-green)
@@ -7,7 +7,7 @@
 
 An end-to-end Machine Learning pipeline that predicts loan default probability. Built with a focus on reproducibility, real-time API inference, and algorithmic fairness.
 
-## 🚀 Project Overview
+## Project Overview
 
 This project processes over 30,000 credit records to predict default risk using the UCI Default of Credit Card Clients dataset. It features a champion-challenger model architecture, achieving a **0.76 ROC-AUC** score using XGBoost.
 
@@ -18,7 +18,7 @@ This project processes over 30,000 credit records to predict default risk using 
 - **Interactive UI:** Streamlit dashboard for stakeholder User Acceptance Testing (UAT).
 - **MLOps Monitoring:** Automated checks for demographic fairness and data drift (Kolmogorov-Smirnov Test).
 
-## 📖 Data Dictionary (Input Features)
+## Data Dictionary (Input Features)
 
 The model requires an array of 23 numerical features representing a client's profile and 6-month financial history.
 
@@ -54,7 +54,7 @@ _Amount of previous payment (NT dollars)._
 - `PAY_AMT1`: Amount paid in September
 - `PAY_AMT2` to `PAY_AMT6`: Amount paid from August back to April
 
-## 🗂️ Repository Structure
+## Repository Structure
 
 ```text
 credit-risk-ml/
@@ -68,7 +68,7 @@ credit-risk-ml/
 └── requirements.txt      # Dependencies
 ```
 
-## 💻 Quickstart
+## Quickstart
 
 **1. Clone the repository**
 
