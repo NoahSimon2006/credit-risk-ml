@@ -105,7 +105,7 @@ Start the frontend UI (in a new terminal):
 streamlit run app_ui.py
 ```
 
-## 📊 Model Performance
+## Model Performance
 
 - **Algorithm:** XGBoost Classifier
 - **Primary Metric (ROC-AUC):** 0.7565
